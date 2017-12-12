@@ -47,15 +47,15 @@ namespace UFVP
             logPath = @"C:\Users\" + Environment.UserName + @"\Documents\UFMP\";
             checkDirectory(logPath);
             logFile = logPath + logName;
-
-            if (path != "")
-                OpenLastByDir(path);
+            
             this.Closing += new System.ComponentModel.CancelEventHandler(onClosing);
 
             idleTimer = new Timer(1000);
             idleTimer.Elapsed += new ElapsedEventHandler(idleTimerTick);
             idleTimer.Enabled = true;
-            this.MouseMove += new MouseEventHandler(mouseAction);
+            this.MouseMove += new MouseEventHandler(mouseAction); 
+            if (path != "")
+                OpenLastByDir(path);
         }
         void keyDown(object owner, KeyEventArgs e)
         {
@@ -134,7 +134,7 @@ namespace UFVP
         void idleTimerTick(object state, ElapsedEventArgs e)
         {
             idleTime++;
-            if(idleTime > 2)
+            if(idleTime >= 2)
             {
                 buttonsGrid.Dispatcher.BeginInvoke(new Action(delegate()
                 {
@@ -174,6 +174,7 @@ namespace UFVP
         }       
         private void pauseButton_Click(object sender, RoutedEventArgs e)
         {
+            if (MediaPlayer.Source == null) return;
             MediaPlayer.Pause();
             playButton.Visibility = System.Windows.Visibility.Visible;
             pauseButton.Visibility = System.Windows.Visibility.Hidden;
@@ -305,11 +306,11 @@ namespace UFVP
             FileStream fs = new FileStream(logFile, FileMode.OpenOrCreate);
             StreamReader reader = new StreamReader(fs);
             string[] buffer = reader.ReadToEnd().Split('☼');
+            reader.Close();
+            fs.Close();
             VideoOpen(buffer[buffer.Length-1].Split('\n')[0], double.Parse(buffer[buffer.Length-1].Split('\n')[1].Split(':')[1]));
             string[] b = new string[1] { buffer[buffer.Length - 1].Split('\n')[0] };
             PlaylistAdd(b);
-            reader.Close();
-            fs.Close();
         }       
         void getType()
         {
@@ -335,6 +336,8 @@ namespace UFVP
         }
         void OpenLastByDir(string path)
         {
+            if (MediaPlayer.Source != null)
+                SaveLog("choosingAnotherOne");
             FileStream fs = new FileStream(logFile, FileMode.OpenOrCreate);
             StreamReader reader = new StreamReader(fs);
             string[] buffer = reader.ReadToEnd().Split('☼');
