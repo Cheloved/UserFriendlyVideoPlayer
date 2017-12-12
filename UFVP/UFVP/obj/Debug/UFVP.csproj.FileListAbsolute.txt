@@ -1,0 +1,12 @@
+D:\Projects\C#\UFVP\UFVP\bin\Debug\UFVP.exe
+D:\Projects\C#\UFVP\UFVP\bin\Debug\UFVP.pdb
+D:\Projects\C#\UFVP\UFVP\obj\Debug\UFVP.csprojResolveAssemblyReference.cache
+D:\Projects\C#\UFVP\UFVP\obj\Debug\MainWindow.baml
+D:\Projects\C#\UFVP\UFVP\obj\Debug\MainWindow.g.cs
+D:\Projects\C#\UFVP\UFVP\obj\Debug\App.g.cs
+D:\Projects\C#\UFVP\UFVP\obj\Debug\UFVP_MarkupCompile.cache
+D:\Projects\C#\UFVP\UFVP\obj\Debug\UFVP.g.resources
+D:\Projects\C#\UFVP\UFVP\obj\Debug\UFVP.Properties.Resources.resources
+D:\Projects\C#\UFVP\UFVP\obj\Debug\UFVP.csproj.GenerateResource.Cache
+D:\Projects\C#\UFVP\UFVP\obj\Debug\UFVP.exe
+D:\Projects\C#\UFVP\UFVP\obj\Debug\UFVP.pdb
