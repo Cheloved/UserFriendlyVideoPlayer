@@ -1,6 +1,8 @@
 # UserFriendlyVideoPlayer
 ## Description
 This player remembers the moment at which you stopped without any othr useless functions!
+It made special for cinemaddicts, which watching a lot of films and/or series on PC offline.
+Also for people, which can't watch movie fully from start till end without interruption. 
 ## Installation
 To install player you should download just one [file](https://github.com/Cheloved/UserFriendlyVideoPlayer/raw/master/UFVP/UFVP/bin/Debug/UFVP.exe)
 ## Installation of old version
