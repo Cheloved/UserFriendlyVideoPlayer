@@ -1,0 +1,17 @@
+D:\ChapterVideoPlayer\ChapterVideoPlayer\ChapterVideoPlayer\bin\Release\ChapterVideoPlayer.exe
+D:\ChapterVideoPlayer\ChapterVideoPlayer\ChapterVideoPlayer\bin\Release\ChapterVideoPlayer.pdb
+D:\ChapterVideoPlayer\ChapterVideoPlayer\ChapterVideoPlayer\obj\Release\ChapterVideoPlayer.Form1.resources
+D:\ChapterVideoPlayer\ChapterVideoPlayer\ChapterVideoPlayer\obj\Release\ChapterVideoPlayer.Form2.resources
+D:\ChapterVideoPlayer\ChapterVideoPlayer\ChapterVideoPlayer\obj\Release\ChapterVideoPlayer.Properties.Resources.resources
+D:\ChapterVideoPlayer\ChapterVideoPlayer\ChapterVideoPlayer\obj\Release\ChapterVideoPlayer.csproj.GenerateResource.Cache
+D:\ChapterVideoPlayer\ChapterVideoPlayer\ChapterVideoPlayer\obj\Release\ChapterVideoPlayer.exe
+D:\ChapterVideoPlayer\ChapterVideoPlayer\ChapterVideoPlayer\obj\Release\ChapterVideoPlayer.pdb
+D:\Projects\C#\ChapterVideoPlayer\ChapterVideoPlayer\ChapterVideoPlayer\obj\Release\ChapterVideoPlayer.exe
+D:\Projects\C#\ChapterVideoPlayer\ChapterVideoPlayer\ChapterVideoPlayer\obj\Release\ChapterVideoPlayer.pdb
+D:\Projects\C#\ChapterVideoPlayer\ChapterVideoPlayer\ChapterVideoPlayer\bin\Release\ChapterVideoPlayer.exe
+D:\Projects\C#\ChapterVideoPlayer\ChapterVideoPlayer\ChapterVideoPlayer\bin\Release\ChapterVideoPlayer.pdb
+D:\Projects\C#\ChapterVideoPlayer\ChapterVideoPlayer\ChapterVideoPlayer\obj\Release\ChapterVideoPlayer.csprojResolveAssemblyReference.cache
+D:\Projects\C#\ChapterVideoPlayer\ChapterVideoPlayer\ChapterVideoPlayer\obj\Release\ChapterVideoPlayer.Form1.resources
+D:\Projects\C#\ChapterVideoPlayer\ChapterVideoPlayer\ChapterVideoPlayer\obj\Release\ChapterVideoPlayer.Properties.Resources.resources
+D:\Projects\C#\ChapterVideoPlayer\ChapterVideoPlayer\ChapterVideoPlayer\obj\Release\ChapterVideoPlayer.settingsForm.resources
+D:\Projects\C#\ChapterVideoPlayer\ChapterVideoPlayer\ChapterVideoPlayer\obj\Release\ChapterVideoPlayer.csproj.GenerateResource.Cache
