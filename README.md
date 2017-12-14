@@ -6,7 +6,9 @@ Also for people, which can't watch movie fully from start till end without inter
 ## Installation
 To install player you should download just one [file](https://github.com/Cheloved/UserFriendlyVideoPlayer/raw/master/UFVP/UFVP/bin/Debug/UFVP.exe)
 ## Installation of old version
-_WARNING! Some functions are not available in it!_
+**WARNING! Some functions are not available in it!**
+
+_But it still work stable_
 
 You can use the [installer](https://github.com/Cheloved/UserFriendlyVideoPlayer/raw/master/oldVersion/Setup/Debug/ChapterVideoPlayer.msi) or download main [application](https://github.com/Cheloved/UserFriendlyVideoPlayer/blob/master/oldVersion/ChapterVideoPlayer/bin/Debug/ChapterVideoPlayer.exe), but then you should also download
 1. [Microsoft.DirectX.AudioVideoPlayback.dll](https://github.com/Cheloved/UserFriendlyVideoPlayer/raw/master/oldVersion/ChapterVideoPlayer/bin/Debug/Microsoft.DirectX.AudioVideoPlayback.dll)
